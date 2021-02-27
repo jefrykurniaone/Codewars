@@ -11,6 +11,7 @@ function XO(str) {
     );
 }
 
+// test result
 console.log(XO("xo"), true);
 console.log(XO("xxOo"), true);
 console.log(XO("xxxm"), false);
