@@ -1,10 +1,17 @@
-function accum(s) {
-    return s
-        .toLowerCase()
-        .split("")
-        .map((huruf, i) => huruf.toUpperCase() + huruf.repeat(i))
-        .join("-");
-}
+// function accum(s) {
+//     return s
+//         .toLowerCase()
+//         .split("")
+//         .map((huruf, i) => huruf.toUpperCase() + huruf.repeat(i))
+//         .join("-");
+// }
+
+const accum = (s) =>
+    s
+    .toLowerCase()
+    .split("")
+    .map((huruf, i) => huruf.toUpperCase() + huruf.repeat(i))
+    .join("-");
 
 // test result
 console.log(accum("abcd"), "A-Bb-Ccc-Dddd");
