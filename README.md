@@ -1,6 +1,6 @@
 # Codewars Solutions
 
-My solutions for [Codewars](https://www.codewars.com/) challenges in Go, JavaScript, and TypeScript.
+My solutions for [Codewars](https://www.codewars.com/) challenges.
 
 **Profile:** [Jefry Kurniawan](https://www.codewars.com/users/jefrykurniaone)
 
