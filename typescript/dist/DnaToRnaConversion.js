@@ -1,5 +1,4 @@
 "use strict";
-//link https://www.codewars.com/kata/5556282156230d0e5e000089
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DNAtoRNA = DNAtoRNA;
 function DNAtoRNA(dna) {
@@ -14,6 +13,6 @@ function DNAtoRNA(dna) {
     }
     return rna;
 }
-console.log(DNAtoRNA("TTTT")); // "UUUU"
-console.log(DNAtoRNA("GCAT")); // "GCAU"
+console.log(DNAtoRNA("TTTT"));
+console.log(DNAtoRNA("GCAT"));
 //# sourceMappingURL=DnaToRnaConversion.js.map

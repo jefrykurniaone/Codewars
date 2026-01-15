@@ -1,5 +1,4 @@
 "use strict";
-//link https://www.codewars.com/kata/539ee3b6757843632d00026b
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.capitals = capitals;
 function capitals(word) {
@@ -11,6 +10,6 @@ function capitals(word) {
     }
     return result;
 }
-console.log(capitals("CodEWaRs")); // [0, 3, 4, 6]
-console.log(capitals("aBCdEfG")); // [1, 2, 4, 6]
+console.log(capitals("CodEWaRs"));
+console.log(capitals("aBCdEfG"));
 //# sourceMappingURL=FindTheCapitals.js.map
