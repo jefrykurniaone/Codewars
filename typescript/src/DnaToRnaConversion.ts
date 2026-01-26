@@ -2,16 +2,16 @@
 
 export function DNAtoRNA(dna: string): string {
   let rna = "";
-    
-    for (let i = 0; i < dna.length; i++) {
-        if (dna[i] === 'T') {
-            rna += 'U';
-        } else {
-            rna += dna[i];
-        }
+
+  for (let i = 0; i < dna.length; i++) {
+    if (dna[i] === "T") {
+      rna += "U";
+    } else {
+      rna += dna[i];
     }
-    
-    return rna;
+  }
+
+  return rna;
 }
 
 console.log(DNAtoRNA("TTTT")); // "UUUU"
